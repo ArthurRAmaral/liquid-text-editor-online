@@ -32,6 +32,16 @@ h2 {
   line-height: 1;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.header-logo {
+  height: 3em;
+}
+
 .side-by-side-blocks {
   flex: 1;
   display: flex;

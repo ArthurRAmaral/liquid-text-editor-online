@@ -1,4 +1,4 @@
-import { Editor } from "./shared/editor";
+import { Editor } from "../shared/editor";
 
 class LiquidEditor extends Editor<string> {
   textToValue(content: string): string {

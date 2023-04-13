@@ -1,8 +1,8 @@
-import "./style.css";
-import { JsonEditor } from "./jsonEditor";
-import { LiquidPreviewer } from "./liquidPreview";
+import "./styles/global.css";
+import { JsonEditor } from "./components/jsonEditor";
+import { LiquidPreviewer } from "./components/liquidPreview";
 import { ReplaySubject } from "rxjs";
-import { LiquidEditor } from "./liquidEditor";
+import { LiquidEditor } from "./components/liquidEditor";
 
 // JSON
 let initialData = {

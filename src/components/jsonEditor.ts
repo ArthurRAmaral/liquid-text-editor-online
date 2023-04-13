@@ -1,5 +1,5 @@
-import { Editor } from "./shared/editor";
-import { Toast } from "./shared/toast";
+import { Editor } from "../shared/editor";
+import { Toast } from "../shared/toast";
 
 class JsonEditor extends Editor<any> {
   textToValue(content: string): any {

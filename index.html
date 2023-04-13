@@ -2,13 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/gota.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liquid text editor online</title>
+    <meta
+      name="og:image"
+      content="https://arthurramaral.github.io/liquid-text-editor-online/og_image.png"
+    />
   </head>
   <body>
     <div id="toast-container"></div>
-    <header><h1>Liquid text editor online</h1></header>
+    <header>
+      <img
+        class="header-logo"
+        src="/gota.png"
+        alt="Liquid text editor online Logo"
+      />
+      <h1>Liquid text editor online</h1>
+    </header>
     <main class="side-by-side-blocks">
       <section class="editor-container">
         <h2>Input data (JSON)</h2>
@@ -24,7 +35,7 @@
         <div id="preview-content"></div>
       </section>
     </main>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/index.ts"></script>
   </body>
 </html>
 
