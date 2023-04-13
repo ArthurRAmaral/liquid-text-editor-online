@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liquid text editor online</title>
+  </head>
+  <body>
+    <div id="toast-container"></div>
+    <header><h1>Liquid text editor online</h1></header>
+    <main class="side-by-side-blocks">
+      <section class="editor-container">
+        <h2>Input data (JSON)</h2>
+        <textarea id="data-input" class="text-input"></textarea>
+        <button id="beautify-button">Beautify</button>
+      </section>
+      <section class="editor-container">
+        <h2>Editor</h2>
+        <textarea id="template-input" class="text-input"></textarea>
+      </section>
+      <section class="editor-container">
+        <h2>Preview</h2>
+        <div id="preview-content"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
