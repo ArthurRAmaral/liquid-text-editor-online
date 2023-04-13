@@ -8,6 +8,11 @@ class LiquidEditor extends Editor<string> {
   valueToText(content: string): string {
     return content;
   }
+
+  catchToValueErro(errorValue: string, content: any): string {
+    console.error("Error parsing liquid template", content);
+    return errorValue;
+  }
 }
 
 export { LiquidEditor };
