@@ -3,39 +3,7 @@ import { JsonEditor } from "./components/jsonEditor";
 import { LiquidPreviewer } from "./components/liquidPreview";
 import { ReplaySubject } from "rxjs";
 import { LiquidEditor } from "./components/liquidEditor";
-
-// JSON
-let initialData = {
-  offer: {
-    name: "OFFER_NAME",
-  },
-  order: {
-    order_id: "ORDER_ID",
-  },
-  buyer: {
-    user_id: "USER_ID",
-  },
-  refund_items: [
-    {
-      quantity: 123,
-      name: "PROD_1",
-      sku: 123,
-    },
-    {
-      quantity: 234,
-      name: "PROD_2",
-    },
-    {
-      quantity: 356,
-      name: "PROD_3",
-      sku: 456,
-    },
-    {
-      quantity: 456,
-      name: "PROD_4",
-    },
-  ],
-};
+import initialData from "./assets/initialData.json";
 
 const dataSubject = new ReplaySubject<any>(1);
 dataSubject.next(initialData);

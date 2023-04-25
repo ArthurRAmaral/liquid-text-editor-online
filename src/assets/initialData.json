@@ -1,0 +1,768 @@
+{
+  "refund": {
+    "refund_id": 9,
+    "order_id": "44725a5fae204dd4adb7ca2eda9ae19c",
+    "culpability_id": 13,
+    "created_at": "2023-04-24T14:26:35.549525",
+    "updated_at": "2023-04-25T13:06:22.450352",
+    "status": "confirmed",
+    "fail_reason": null,
+    "notify_partner": true,
+    "notify_customer": true,
+    "refunded_products": [
+      {
+        "refund_id": 9,
+        "sku": 7607,
+        "product_id": 22716,
+        "quantity": 1,
+        "product_name": "Brocolis Ninja Org\\u00e2nico - Aprox. 300g"
+      }
+    ],
+    "liabilities": [
+      {
+        "refund_id": 9,
+        "supplier_id": null,
+        "amount": 9.5
+      }
+    ],
+    "refund_values": [
+      {
+        "refund_id": 9,
+        "payment_origin": "credit_card",
+        "payment_destination": "credit_card",
+        "amount": 9.5
+      }
+    ]
+  },
+  "offer": null,
+  "order": {
+    "buyer": {
+      "communities": [
+        "47dc15c5-4f29-4ebd-8ba2-6367b7498296",
+        "921f40db-a0d4-4cd5-9c66-ff75d1563cba",
+        "3c987d1c-1334-4de8-9466-8b2093cf9d3f",
+        "e4d99493-3b87-4e1a-ba42-35af0ff1887e",
+        "f1a91c20-1316-40ba-beb8-9ac684eb570f"
+      ],
+      "cpf": "11564913635",
+      "email": "arthur.amaral@trela.com.br",
+      "first_name": "Arthur",
+      "image_link": null,
+      "name": "Arthur Rocha Amaral",
+      "phone": "+5533998446096",
+      "role": "supplier",
+      "shipping_address": {
+        "address_category": "building",
+        "address_id": 2432,
+        "city_name": "Belo Horizonte",
+        "country_state": "MG",
+        "neighborhood_name": "Cora\\u00e7\\u00e3o de Jesus",
+        "postal_code": "30380232",
+        "street_name": "Rua Tavares Bastos",
+        "street_number": "470",
+        "unit_number": ""
+      },
+      "shipping_address_id": 2432,
+      "surname": "Rocha Amaral",
+      "user_id": "67ad2c0a-d878-45ad-b736-ec6b856608f6",
+      "version": 7
+    },
+    "community_id": "e4d99493-3b87-4e1a-ba42-35af0ff1887e",
+    "completed": true,
+    "compounded_interest": 1,
+    "coupon_id": null,
+    "coupon_values": {
+      "supplier_coupon_value": 0,
+      "zapt_coupon_value": 0
+    },
+    "created_at": "2023-02-01T18:11:11.571772",
+    "error_msg": null,
+    "group_id": null,
+    "is_pickup": false,
+    "offer": null,
+    "offer_id": null,
+    "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+    "order_products": [
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/1040324d-401f-41cd-be45-ab02f36a90eb-Drag%C3%AABites-100g.jpeg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 24844,
+        "product_name": "Drag\\u00ea Bites - Embalagem com Aprox. 100g",
+        "quantity": 2,
+        "sku": 3918,
+        "take_rate": 25,
+        "total_price": 40,
+        "variant": {
+          "emporium_price": 20,
+          "price": 20,
+          "retail_price": 25,
+          "sku": 3918,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/c0358ead-7ff5-4db2-9886-0afb2fdd6598-%C2%B41-SGXT2519.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/8b961bcb-f00f-47c1-9ac5-63f584abaad8-2-SGXT2496.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/ea503ee5-7f80-4024-a806-fb6acd49ed94-3-SGXT2502.jpg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 22716,
+        "product_name": "Brocolis Ninja Org\\u00e2nico - Aprox. 300g",
+        "quantity": 2,
+        "sku": 7607,
+        "take_rate": 50,
+        "total_price": 19,
+        "variant": {
+          "emporium_price": 9.5,
+          "price": 9.5,
+          "retail_price": 10.5,
+          "sku": 7607,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/efaa2d5a-246f-4214-8093-419cecd5d25a-1-SGXT3401.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/1baca1f4-2359-4376-948b-931efd93666e-2-SGXT3377.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/86c1ff35-5c87-43ee-8ab1-23b4252b266a-3-SGXT3375.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/08423440-0e92-4a89-878d-5a29b099be97-4-SGXT3435.jpg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 22755,
+        "product_name": "Tomate Grape Org\\u00e2nico - Aprox. 180g",
+        "quantity": 3,
+        "sku": 7638,
+        "take_rate": null,
+        "total_price": 17.4,
+        "variant": {
+          "emporium_price": 5.8,
+          "price": 5.8,
+          "retail_price": 6.5,
+          "sku": 7638,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/092f86e1-4c1e-41d9-a26a-d8c62a26ebb7-1-SGXT4637.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/b80cfd72-f7ee-477d-8a55-339b0d72ac0c-2-SGXT4661.jpg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 23800,
+        "product_name": "Banana Prata Org\\u00e2nica - Aprox. 800g",
+        "quantity": 2,
+        "sku": 7602,
+        "take_rate": null,
+        "total_price": 17.8,
+        "variant": {
+          "emporium_price": 8.9,
+          "price": 8.9,
+          "retail_price": 9.8,
+          "sku": 7602,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://zapt-app-compressed.s3.sa-east-1.amazonaws.com/prod/products/b1857aca-0019-4602-af8d-34b3eef425cd.jpg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 23283,
+        "product_name": "Crocante de Brie Ultracongelado - 25un",
+        "quantity": 1,
+        "sku": 1482,
+        "take_rate": null,
+        "total_price": 58.64,
+        "variant": {
+          "emporium_price": 58.64,
+          "price": 58.64,
+          "retail_price": 69,
+          "sku": 1482,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://zapt-app-compressed.s3.sa-east-1.amazonaws.com/prod/products/2d5a44e3-d652-4540-8d03-eda20e793682.jpeg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 26673,
+        "product_name": "Croque Monsieur Congelado - 1 Por\\u00e7\\u00e3o Individual",
+        "quantity": 2,
+        "sku": 6002,
+        "take_rate": 20,
+        "total_price": 34,
+        "variant": {
+          "emporium_price": 17,
+          "price": 17,
+          "retail_price": 19,
+          "sku": 6002,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/74116f2e-ed68-41ae-923a-f68156ad5540--Am%C3%AAndoacomMel-Aprox.100g%28161803%291.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/2ff87b9c-ddd9-41f7-849e-f50011e00414--Am%C3%AAndoacomMel-Aprox.100g%28161803%292.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/f15d0f8e-db5c-4b9f-bc81-5cd67bf9c576--Am%C3%AAndoacomMel-Tabela.JPG"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 28940,
+        "product_name": "Am\\u00eandoa com Mel - 100g",
+        "quantity": 2,
+        "sku": 3749,
+        "take_rate": 50,
+        "total_price": 30.26,
+        "variant": {
+          "emporium_price": 15.13,
+          "price": 14.56,
+          "retail_price": 16.17,
+          "sku": 3749,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/8088e63f-6dcc-40a9-ad91-eaf35feec6b0-1-SGXT5158.jpg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/e3ada704-b14e-4f66-b356-174ff90086ca-2-SGXT5110.jpg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 22882,
+        "product_name": "Cesta Frutas",
+        "quantity": 2,
+        "sku": 7738,
+        "take_rate": 10,
+        "total_price": 217.9,
+        "variant": {
+          "emporium_price": 108.95,
+          "price": 94.05,
+          "retail_price": 130,
+          "sku": 7738,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/5b17a818-77a4-44d6-9c77-539eb80d3c17-BatataGratinada300g.jpeg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 26377,
+        "product_name": "Batata Gratinada - Aprox. 300g",
+        "quantity": 2,
+        "sku": 3755,
+        "take_rate": null,
+        "total_price": 64.6,
+        "variant": {
+          "emporium_price": 32.3,
+          "price": 33.35,
+          "retail_price": 35.1,
+          "sku": 3755,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/cb50316a-d3e9-4597-8a0f-0aa453449c15--Am%C3%AAndoaSalgada-Aprox.100g%28161805%291.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/a26e88d0-7732-41c5-9013-10b7c7b90ee4--Am%C3%AAndoaSalgada-Aprox.100g%28161805%292.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/76a2450d-5ca1-4321-a450-6b7246cfe475--Am%C3%AAndoaSalgada-Aprox.100g%28161805%29TABELA.jpeg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 28917,
+        "product_name": "Am\\u00eandoa Salgada - 100g",
+        "quantity": 2,
+        "sku": 3840,
+        "take_rate": 17,
+        "total_price": 25.84,
+        "variant": {
+          "emporium_price": 12.92,
+          "price": 11.99,
+          "retail_price": 13.32,
+          "sku": 3840,
+          "values": [],
+          "weight_unit": null
+        }
+      },
+      {
+        "description": "Descri\\u00e7\\u00e3o muito legal de um produto que era de produ\\u00e7\\u00e3o \\ud83e\\udd2d",
+        "image_links": [
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/cbe71803-73c6-49f5-9e81-dcb6d72e6a67--Am%C3%AAndoaGlaceada-Aprox.160g%28201802%291.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/e58eb1bf-f541-46d5-96e3-cae6d099d8e2--Am%C3%AAndoaGlaceada-Aprox.160g%28201802%292.jpeg",
+          "https://prod-zapt-images.s3.sa-east-1.amazonaws.com/products/54a0c162-81e8-4ad1-b246-19e7f215e3c9--Am%C3%AAndoaGlaceada-Aprox.160g%28201802%29TABELA.jpeg"
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "product_id": 28945,
+        "product_name": "Am\\u00eandoa Glaceada - 160g",
+        "quantity": 2,
+        "sku": 3747,
+        "take_rate": null,
+        "total_price": 42.94,
+        "variant": {
+          "emporium_price": 21.47,
+          "price": 19.98,
+          "retail_price": 22.2,
+          "sku": 3747,
+          "values": [],
+          "weight_unit": null
+        }
+      }
+    ],
+    "order_status": "completed",
+    "order_type": "emporium",
+    "packages": [
+      {
+        "created_at": "2023-02-01T21:34:18.798493",
+        "irregularity_msg": null,
+        "items": [
+          {
+            "created_at": "2023-02-01T21:34:18.800557",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "592219c2-b4ae-4c55-a6fb-d214eec366e2",
+            "sku": 3918,
+            "updated_at": "2023-02-01T21:34:18.800561",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800562",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "1b61b4ed-c8bc-4530-a54d-9b68a03dab99",
+            "sku": 3918,
+            "updated_at": "2023-02-01T21:34:18.800564",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800565",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "8a4a724d-00c2-4ef9-9ed1-b156cfe7688c",
+            "sku": 7607,
+            "updated_at": "2023-02-01T21:34:18.800566",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800567",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "d1389054-4e5a-4f03-8535-f4b08d5fe1f2",
+            "sku": 7607,
+            "updated_at": "2023-02-01T21:34:18.800568",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800570",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "b0267250-e674-4e67-b831-95e5704ae90f",
+            "sku": 7638,
+            "updated_at": "2023-02-01T21:34:18.800571",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800572",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "0004e7f5-254b-41df-969d-e9049f9511bf",
+            "sku": 7638,
+            "updated_at": "2023-02-01T21:34:18.800573",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800574",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "661fb6c6-ffe6-4138-88c7-8f452b338d3e",
+            "sku": 7638,
+            "updated_at": "2023-02-01T21:34:18.800575",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800577",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "f64fe568-c0f4-40e7-bb9b-0390ddbaeec1",
+            "sku": 7602,
+            "updated_at": "2023-02-01T21:34:18.800578",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800579",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "6c84eb95-9c5a-4077-b807-ef389fbe119f",
+            "sku": 7602,
+            "updated_at": "2023-02-01T21:34:18.800580",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800581",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "b660c253-51d9-41a5-a5ba-313735f8ef0b",
+            "sku": 1482,
+            "updated_at": "2023-02-01T21:34:18.800582",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800583",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "be31d85d-ef71-440a-83b7-d7ad7befa764",
+            "sku": 6002,
+            "updated_at": "2023-02-01T21:34:18.800584",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800585",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "795ce3d8-6ba9-4131-85aa-802830ff9671",
+            "sku": 6002,
+            "updated_at": "2023-02-01T21:34:18.800587",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800588",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "f9f5ec63-d5a6-4ac2-8580-f2d4fd77020a",
+            "sku": 3749,
+            "updated_at": "2023-02-01T21:34:18.800589",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800590",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "7143cab2-176e-456c-843e-19b52a029344",
+            "sku": 3749,
+            "updated_at": "2023-02-01T21:34:18.800591",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800592",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "0f5cd086-01a2-4506-b264-77a0cbe2e316",
+            "sku": 7738,
+            "updated_at": "2023-02-01T21:34:18.800593",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800594",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "c4b4a798-10b1-417f-b9fc-29f364c7a23d",
+            "sku": 7738,
+            "updated_at": "2023-02-01T21:34:18.800605",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800606",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "f35ec8bc-2388-4de5-8505-074acb583eb1",
+            "sku": 3755,
+            "updated_at": "2023-02-01T21:34:18.800608",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800609",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "1bfa4157-466c-49e7-937a-7ceab72e7056",
+            "sku": 3755,
+            "updated_at": "2023-02-01T21:34:18.800610",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800611",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "5649b6cc-fc81-4f02-b7e5-198f756a246c",
+            "sku": 3840,
+            "updated_at": "2023-02-01T21:34:18.800612",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800613",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "8d0d227d-d98b-46bd-9b7e-43a659aed83b",
+            "sku": 3840,
+            "updated_at": "2023-02-01T21:34:18.800614",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800615",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "7c2b8859-e681-4c75-a057-b452a9d7679f",
+            "sku": 3747,
+            "updated_at": "2023-02-01T21:34:18.800616",
+            "weight": null
+          },
+          {
+            "created_at": "2023-02-01T21:34:18.800618",
+            "delivered": false,
+            "irregularity": null,
+            "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+            "package_item_id": "bddfc174-1405-41a5-85a8-f203aa128777",
+            "sku": 3747,
+            "updated_at": "2023-02-01T21:34:18.800619",
+            "weight": null
+          }
+        ],
+        "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+        "package_id": "357358d9-5f6a-4978-b894-4e3277445ab0",
+        "shipping_address": {
+          "address_id": 8744,
+          "city_name": "Belo Horizonte",
+          "country_state": "MG",
+          "neighborhood_name": "Cora\\u00e7\\u00e3o de Jesus",
+          "postal_code": "30380232",
+          "street_name": "Rua Tavares Bastos",
+          "street_number": "470",
+          "unit_number": null
+        },
+        "shipping_address_id": 8744,
+        "shipping_status": "unshipped",
+        "updated_at": "2023-02-01T21:34:18.798499",
+        "version": 1,
+        "weighted_items_grouped_by_sku": []
+      }
+    ],
+    "shipping_address": {
+      "address_id": 12670,
+      "city_name": "Belo Horizonte",
+      "country_state": "MG",
+      "neighborhood_name": "Cora\\u00e7\\u00e3o de Jesus",
+      "postal_code": "30380232",
+      "street_name": "Rua Tavares Bastos",
+      "street_number": "470",
+      "unit_number": null
+    },
+    "shipping_address_id": 12670,
+    "shipping_method": "Entrega",
+    "shipping_method_data": null,
+    "shipping_method_id": null,
+    "source": "emporium",
+    "status": "paid",
+    "take_amounts": {
+      "per_product_take_amount": [
+        {
+          "quantity": 2,
+          "sku": 3918,
+          "supplier_id": 1715,
+          "total_amount_without_take_rate": 30,
+          "total_price": 40,
+          "unit_amount_without_take_rate": 15,
+          "unit_price": 20
+        },
+        {
+          "quantity": 2,
+          "sku": 7607,
+          "supplier_id": 1883,
+          "total_amount_without_take_rate": 9.5,
+          "total_price": 19,
+          "unit_amount_without_take_rate": 4.75,
+          "unit_price": 9.5
+        },
+        {
+          "quantity": 3,
+          "sku": 7638,
+          "supplier_id": 1883,
+          "total_amount_without_take_rate": 14.34,
+          "total_price": 17.4,
+          "unit_amount_without_take_rate": 4.78,
+          "unit_price": 5.8
+        },
+        {
+          "quantity": 2,
+          "sku": 7602,
+          "supplier_id": 1883,
+          "total_amount_without_take_rate": 14.68,
+          "total_price": 17.8,
+          "unit_amount_without_take_rate": 7.34,
+          "unit_price": 8.9
+        },
+        {
+          "quantity": 1,
+          "sku": 1482,
+          "supplier_id": 1761,
+          "total_amount_without_take_rate": 52.78,
+          "total_price": 58.64,
+          "unit_amount_without_take_rate": 52.78,
+          "unit_price": 58.64
+        },
+        {
+          "quantity": 2,
+          "sku": 6002,
+          "supplier_id": 1867,
+          "total_amount_without_take_rate": 27.2,
+          "total_price": 34,
+          "unit_amount_without_take_rate": 13.6,
+          "unit_price": 17
+        },
+        {
+          "quantity": 2,
+          "sku": 3749,
+          "supplier_id": 1721,
+          "total_amount_without_take_rate": 15.12,
+          "total_price": 30.26,
+          "unit_amount_without_take_rate": 7.56,
+          "unit_price": 15.13
+        },
+        {
+          "quantity": 2,
+          "sku": 7738,
+          "supplier_id": 1883,
+          "total_amount_without_take_rate": 196.12,
+          "total_price": 217.9,
+          "unit_amount_without_take_rate": 98.06,
+          "unit_price": 108.95
+        },
+        {
+          "quantity": 2,
+          "sku": 3755,
+          "supplier_id": 1761,
+          "total_amount_without_take_rate": 58.14,
+          "total_price": 64.6,
+          "unit_amount_without_take_rate": 29.07,
+          "unit_price": 32.3
+        },
+        {
+          "quantity": 2,
+          "sku": 3840,
+          "supplier_id": 1721,
+          "total_amount_without_take_rate": 21.44,
+          "total_price": 25.84,
+          "unit_amount_without_take_rate": 10.72,
+          "unit_price": 12.92
+        },
+        {
+          "quantity": 2,
+          "sku": 3747,
+          "supplier_id": 1721,
+          "total_amount_without_take_rate": 38.64,
+          "total_price": 42.94,
+          "unit_amount_without_take_rate": 19.32,
+          "unit_price": 21.47
+        }
+      ],
+      "supplier_take_amount": 477.96,
+      "zapt_take_amount": 90.42
+    },
+    "total_paid": 568.38,
+    "total_shipping_price": 0,
+    "transaction": {
+      "boleto_barcode": null,
+      "boleto_url": null,
+      "created_at": "2023-02-01T21:11:23.977822+00:00",
+      "expires_at": "2023-02-01T21:26:23.977822+00:00",
+      "gateway": "plug",
+      "gateway_transaction_id": "99bba077-9b6d-4609-9709-0f38e6f85347",
+      "nominal_amount": 568.38,
+      "nominal_wallet_amount": 0,
+      "order_id": "44725a5f-ae20-4dd4-adb7-ca2eda9ae19c",
+      "payment_method": "credit_card",
+      "pix_qrcode": null,
+      "status": "paid",
+      "total_amount": 501.48,
+      "transaction_id": 11450,
+      "update_at": "2023-04-24T17:26:36.033814+00:00",
+      "user_id": "67ad2c0a-d878-45ad-b736-ec6b856608f6",
+      "user_name": "Arthur Rocha Amaral",
+      "version": 6,
+      "wallet_amount": 0
+    },
+    "update_at": "2023-02-01T18:44:59.889619",
+    "user_coupon": null,
+    "user_id": "67ad2c0a-d878-45ad-b736-ec6b856608f6",
+    "version": 4
+  },
+  "buyer": {
+    "communities": [
+      "47dc15c5-4f29-4ebd-8ba2-6367b7498296",
+      "921f40db-a0d4-4cd5-9c66-ff75d1563cba",
+      "3c987d1c-1334-4de8-9466-8b2093cf9d3f",
+      "e4d99493-3b87-4e1a-ba42-35af0ff1887e",
+      "f1a91c20-1316-40ba-beb8-9ac684eb570f"
+    ],
+    "cpf": "11564913635",
+    "email": "arthur.amaral@trela.com.br",
+    "first_name": "Arthur",
+    "image_link": null,
+    "name": "Arthur Rocha Amaral",
+    "phone": "+5533998446096",
+    "role": "supplier",
+    "shipping_address": {
+      "address_category": "building",
+      "address_id": 2432,
+      "city_name": "Belo Horizonte",
+      "country_state": "MG",
+      "neighborhood_name": "Cora\\u00e7\\u00e3o de Jesus",
+      "postal_code": "30380232",
+      "street_name": "Rua Tavares Bastos",
+      "street_number": "470",
+      "unit_number": ""
+    },
+    "shipping_address_id": 2432,
+    "surname": "Rocha Amaral",
+    "user_id": "67ad2c0a-d878-45ad-b736-ec6b856608f6",
+    "version": 7
+  },
+  "refunded_products": [
+    {
+      "refund_id": 9,
+      "sku": 7607,
+      "product_id": 22716,
+      "quantity": 1,
+      "product_name": "Brocolis Ninja Org\\u00e2nico - Aprox. 300g"
+    }
+  ],
+  "test": "Testing refund data"
+}
